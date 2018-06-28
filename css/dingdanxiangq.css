@@ -1,0 +1,202 @@
+@import url(base.css);
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #00479d;
+}
+.hed{
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.92rem;
+	color: #fff;
+}
+main{
+	width: 100%;
+	height: 10.94rem;
+	background: #ffffff;
+}
+.man{
+	width: 100%;
+	height: 10.94rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.man li{
+	width: 7.04rem;
+	height: 1.46rem;
+	background: #ffffff;
+	position: relative;
+}
+.man li .las{
+	width: 0.68rem;
+	height: 100%;
+	background: #236bfe;
+	float: left;
+}
+.man li .tups{
+	width: 1.02rem;
+	height: 1.2rem;
+	background: url('../img/w7.png') no-repeat center/cover;
+	float: left;
+	margin: 0.16rem 0 0 0;
+	left: 0.26rem;
+	position: absolute;
+}
+.wenz{
+	width: 6.36rem;
+	height: 1.46rem;
+	background: #ffffff;
+	float: left;
+	padding-left: 0.78rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	box-shadow: 0 0.15rem 0.15rem 0.02rem rgba(214, 214, 211, 0.5);
+}
+.wenz .wenz1{
+	width: 100%;
+	height: 0.23rem;
+	background: #ffffff;
+	line-height: 0.23rem;
+}
+.wenz .wenz1 .yim{
+	display: block;
+	font-size: 0.23rem;
+	width: 2.86rem;
+	height: 0.23rem;
+	float: left;
+	color: #000000;
+	line-height: 0.23rem;
+}
+.wenz .wenz1 .yim1{
+	display: block;
+	font-size: 0.17rem;
+	/* width: 2.86rem; */
+	height: 0.23rem;
+	float: right;
+	color: #545454;
+	line-height: 0.23rem;
+}
+.wenz .wenz2{
+	width: 100%;
+	height: 0.18rem;
+	background: #ffffff;
+}
+.wenz .wenz2 .yim3{
+	display: block;
+	font-size: 0.18rem;
+	float: left;
+	color: #545454;
+}
+.wenz .wenz3{
+	width: 100%;
+	height: 0.24rem;
+	background: #ffffff;
+	
+}
+.wenz .wenz3 .wenz4{
+	width: 2.6rem;
+	height: 100%;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	line-height: 0.24rem;
+	/* padding-left: 0.2rem; */
+}
+.wenz .wenz3 .wenz4 .yim4{ 
+	width: 0.6rem;
+	height: 100%;
+	border-radius: 0.2rem;
+	border: 0.03rem solid #569bee;
+	float: left;
+	text-align: center;
+}
+.wenz .wenz3 .wenz4 .yim4 .yim5{
+	display: block;
+	font-size: 0.17rem;
+	float: left;
+	color: #569bee;
+	text-align: center;
+	/* padding-left: 0.13rem; */
+}
+.wenz .wenz5{
+	width: 100%;
+	height: 0.29rem;
+	background: #ffffff;
+}
+.wenz .wenz5 .yim6{
+	display: block;
+	font-size: 0.2rem;
+	float: left;
+	color: #000000;
+	line-height: 0.29rem;
+}
+.wenz .wenz5 .yim7{
+	display: block;
+	font-size: 0.21rem;
+	float: left;
+	padding-left: 2.1rem;
+	color: #569bee;
+	line-height: 0.29rem;
+}
+.wenz .wenz5 .yim8{
+	display: block;
+	font-size: 0.14rem;
+	float: left;
+	color: #000000;
+	/* padding-top: 0.05rem; */
+	line-height: 0.29rem;
+}
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: #ffffff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0 -0.15rem 0.15rem 0.02rem rgba(214, 214, 211, 0.5);
+}
+.ftr{
+	width: 1.28rem;
+	height: 0.68rem;
+	background: #ffffff;
+
+}
+.ftr a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.ftr i{
+	display: block;
+	float: left;
+	font-size: 0.46rem;
+	/* margin-top: 0.2rem; */
+	/* margin-left: 0.07rem; */
+	color: #000000;
+
+}
+.ftr p{
+	/* float: left; */
+	font-size: 0.14rem;
+	/* margin-left: 0.06rem; */
+	color: #000000;
+}
+.ftr:nth-child(3) p{
+	color: #00479d;
+}
+.ftr:nth-child(3) i.icon-dingdan{
+	color: #00479d;
+}

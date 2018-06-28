@@ -1,0 +1,234 @@
+@import url(base.css);
+header{
+	width: 100%;
+	height: 4.72rem;
+	background: #ffffff;
+}
+.hed{
+	width: 100%;
+	height: 4.72rem;
+	/* background: red; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.tou{
+	width: 2.56rem;
+	height: 2.56rem;
+	border-radius: 50%;
+	background: url('../img/w6.jpg') no-repeat center/cover;
+}
+.min{
+	width: 2.54rem;
+	height: 0.52rem;
+	background: #ffffff;
+	
+}
+.min span{
+	display: block;
+	line-height: 0.52rem;
+	font-size: 0.18rem;
+	color: #47484a;
+	text-align: center;
+	line-height: 0.52rem;
+}
+.hy{
+	width: 2.54rem;
+	height: 0.52rem;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hy .yue{
+	width: 0.5rem;
+	height: 0.2rem;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hy .yue li{
+	width: 0.09rem;
+	height: 0.09rem;
+	border-radius: 50%;
+	background: #5a7ef2;
+
+}
+.hy .mcz{
+	width: 2.02rem;
+	height: 0.2rem;
+	background: #ffffff;
+	font-size: 0.16rem;
+	line-height: 0.2rem;
+	text-align: center;
+	color: #5a7ef2;
+}
+main{
+	width: 100%;
+	height: 5.68rem;
+	background: #fff;
+	overflow: hidden;
+}
+.lant{
+	width: 5.02rem;
+	height: 0.4rem;
+	background: #4d7ff0;
+	border-radius: 0.5rem;
+	margin: 0.36rem auto 0;
+}
+.slant{
+	width: 5.54rem;
+	height: 4.36rem;
+	background: #fff;
+	border-radius: 0.3rem;
+	margin: -0.3rem auto 0;
+	box-shadow: 0 0.15rem 0.15rem 0.02rem rgba(214, 214, 211, 0.5);
+}
+.nrx{
+	width: 100%;
+	height: 4rem;
+	background: #ffffff;
+	border-radius: 0.3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.nrx li{
+	width: 100%;
+	height: 0.7rem;
+	background: #ffffff;	
+}
+.nrx li .yue{
+	width: 1.52rem;
+	height: 0.2rem;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0.23rem auto 0;
+}
+.nrx li .yue .yue1{
+	width: 0.19rem;
+	height: 0.19rem;
+	background: #5a7ef2;
+	border-radius: 50%;
+}
+.nrx li .shur{
+	width: 4.44rem;
+	height: 0.48rem;
+	background: #ffffff;
+	margin: 0.17rem auto 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border-bottom: 0.01rem solid #000; */
+}
+.nrx li .shur .shur1{
+	width: 0.22rem;
+	height: 0.06rem;
+	border-radius: 0.3rem;
+	background: #416af0;
+}
+.nrx li .shur .shur2{
+	width: 3.52rem;
+	height: 0.48rem;
+	background: #ffffff;
+}
+.nrx li .shur .shur3{
+	width: 0.48rem;
+	height: 0.48rem;
+	background: #fff;
+}
+.nrx li .shur .shur3 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.nrx li .shur .shur3 i.icon-shouji{
+	display: block;
+	font-size: 0.25rem;
+	color: #1296db;
+}
+.nrx li .shur .shur3 i.icon-mimasuo{
+	display: block;
+	font-size: 0.25rem;
+	color: #00479d;
+}
+input{
+	display: block;
+	width: 2.52rem;
+	height: 0.48rem;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+	border: none;	
+}
+input:focus{
+	outline: none;
+}
+.nrx li .shur .shur3 i.icon-icon12{
+	display: block;
+	font-size: 0.29rem;
+	color: #1d4de7;
+	padding-right: 0.2rem;
+	box-sizing: border-box;
+}
+.nrx li .shur .shur4{
+	font-size: 0.2rem;
+	padding-right: 2.8rem;
+	box-sizing: border-box;
+	color: #9fa2b4;
+}
+.zqd{
+	width: 2.15rem;
+	height: 0.42rem;
+	background: #cacdd5;
+	border-radius: 0.5rem;
+	margin: -0.2rem auto 0;
+}
+i.icon-duihao{
+	display: block;
+	font-size: 0.32rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.42rem;
+}
+footer{
+	width: 100%;
+	height: 1.96rem;
+	background: #fff;
+	overflow: hidden;
+}
+.tub{
+	width: 3.19rem;
+	height: 0.52rem;
+	background: #ffffff;
+	margin: 0.7rem auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+.tub1{
+	width: 0.48rem;
+	height: 0.52rem;
+	background: #ffffff;
+} 
+.tub1 i.icon-QQ{
+	font-size: 0.52rem;
+	display: block;
+	color: #5eaade;
+}
+.tub1 i.icon-weixin{
+	font-size: 0.52rem;
+	display: block;
+	color: #50b674;
+}
+.tub1 i.icon-weibo{
+	font-size: 0.52rem;
+	display: block;
+	color: #ea5d5c;
+}

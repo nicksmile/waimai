@@ -1,0 +1,365 @@
+@import url(base.css);
+header{
+	width: 100%;
+	height: 0.9rem;
+	background: #00479d;
+	padding-left: 0.3rem;
+	padding-right: 0.56rem;
+	box-sizing: border-box;
+}
+.hdl{
+	width: 1.6rem;
+	height: 100%;
+	background: #00479d;
+	float: left;
+	/* text-align: center; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hdl i.icon-dingwei{
+	font-size: 0.5rem;
+	float: left;
+	color: #fbfafd;
+}
+.hdl span{
+	font-size: 0.22rem;
+	/* margin-right: 0.3rem; */
+	float: left;
+	margin-top: 0.12rem;
+	color: #fbfafd;
+}
+.hdl i.icon-arrLeft-fill{
+	font-size: 0.1rem;
+	float: left;
+	margin-top: 0.21rem;
+	color: #fbfafd;
+}
+.hdz{
+	width: 4.4rem;
+	height: 0.4rem;
+	background: #fbfafd;
+	float: right;
+	margin-top: 0.225rem;
+	border-radius: 0.25rem;
+
+}
+.hdz i.icon-search{
+	float: left;
+	margin-left: 0.14rem;
+	margin-top: 0.04rem;
+	color: #c3c8cf;
+}
+.hdz input{
+	display: block;
+	float: right;
+	width: 3.9rem;
+	height: 100%;
+	font-size: 0.16rem;
+	border: none;
+	border-top-right-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+	padding: 0;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+}
+/* 获取焦点 */
+.hdz input:focus{
+	outline: none;
+}
+/* 焦点结束 */
+/* 导航栏开始 */
+section{
+	width: 100%;
+	height: 3.7rem;
+	background: #ffffff;
+}
+ul{
+	width: 6.88rem;
+	height: 1rem;
+	background: #ffffff;
+    float: left;
+    margin-top: 0.31rem;
+    margin-left: 0.21rem;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ul li{
+	width: 1rem;
+	height: 1rem;
+	background: #f52323;
+	border-radius: 0.5rem;
+	float: left;
+	text-align: center;
+}
+ul li i.icon-meishi,.icon-guoshushengxian,.icon-yiyaoxiang,.icon-huoguo,.icon-bianlidiancopy{
+	font-size: 0.4rem;
+	float: left;
+	margin-top: 0.3rem;            
+	margin-left: 0.3rem;
+	color: #ffffff;
+}
+ul li i.icon-guoshushengxian{
+	font-size: 0.4rem;
+}
+ul li i.icon-yiyaoxiang{
+	font-size: 0.4rem;
+}
+ul li i.icon-huoguo{
+	font-size: 0.4rem;
+}
+ul li i.icon-bianlidiancopy{
+	font-size: 0.4rem;
+}
+ul li:nth-child(2){
+	background: #7542e7;
+}
+ul li:nth-child(3){
+	background: #2ff16f;
+}
+ul li:nth-child(4){
+	background: #d6e034;
+}
+ul li:nth-child(5){
+	background: #d17b35;
+}
+ul li i.icon-mianshi,.icon-shouye,.icon-shengxian2,.icon-jinkouchongdiaoyinpin,.icon-mifan{
+	float: left;
+	margin-top: 0.3rem;            
+	margin-left: 0.3rem;
+	color: #ffffff;
+}
+ul li i.icon-mianshi{
+	font-size: 0.4rem;
+}
+ul li i.icon-shouye{
+	font-size: 0.4rem;
+}
+ul li i.icon-shengxian2{
+	font-size: 0.4rem;
+}
+ul li i.icon-jinkouchongdiaoyinpin{
+	font-size: 0.4rem;
+}
+ul li i.icon-mifan{
+	font-size: 0.4rem;
+}
+.mc{
+	width: 6.9rem;
+	height: 0.36rem;
+	background: #ffffff;
+	float: left;
+	margin-left: 0.31rem;
+}
+.yans{
+	background: #34d8f6;
+}
+.yans:nth-child(2){
+	background: #b744f2;
+}
+.yans:nth-child(3){
+	background: #3373e8;
+}
+.yans:nth-child(4){
+	background: #f92a7d;
+}
+.yans:nth-child(5){
+	background: #ff0000;
+}
+.mc p{
+	font-size: 0.21rem;
+	float: left;
+	margin-left: 0.22rem;
+	margin-right: 0.77rem;
+	margin-top: 0.05rem;
+	color: #0f0f0f;
+}
+.mc p:last-child{
+	margin-right: 0;
+	/* float: right; */
+}
+
+/* 导航栏结束 */
+.kg{
+	width: 100%;
+	height: 0.24rem;
+	background: #929096;
+}
+nav{
+	width: 100%;
+	height: auto;
+	background: #ffffff;
+	margin-bottom: 0.98rem;
+	overflow: hidden;
+}
+.mcc{
+	width: 3.58rem;
+	height: 0.98rem;
+	background: #ffffff;
+	float: left;
+	margin-left: 1.92rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.jux{
+	width: 0.72rem;
+	height: 0.04rem;
+	background: #979797;
+}
+.mcc p{
+	font-size: 0.25rem;
+	float: left;
+	color: #0f0f0f;
+}
+.nrm{
+	width: 7.5rem;
+	height: 1.28rem;
+	background: #ffffff;
+	float: left;
+	margin-bottom: 0.24rem;
+}
+
+.tups{
+	width: 1.08rem;
+	height: 1.08rem;
+	background: #ffffff;
+	float: left;
+	margin-left: 0.4rem;
+}
+.tups img{
+	width: 100%;
+	height: 100%;
+}
+.nrm .jies{
+	width: 2.9rem;
+	height: 1.3rem;
+	background: #ffffff;
+	float: left;
+	margin-left: 0.2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* align-items: center; */
+}
+.nrm .jies .diyi{
+	width: 1.7rem;
+	height: 0.24rem;
+	background: #ffffff;
+}
+.nrm .jies .diyi .diyil{
+	width: 0.5rem;
+	height: 0.24rem;
+	background: #fcfc05;
+	float: left;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.24rem;
+	color: #faf9fc;
+}
+.nrm .jies .diyi p{
+	float: left;
+	font-size: 0.24rem;
+	margin-left: 0.14rem;
+	text-align: center;
+}
+.nrm .jies .dier{
+	width: 3.2rem;
+	height: 0.24rem;
+	background: #ffffff;
+}
+.nrm .jies .dier .dier1{
+	width: 1.2rem;
+	height: 0.24rem;
+	background: #ffffff;
+	float: left;
+}
+.nrm .jies .dier p{
+	float: left;
+	font-size: 0.12rem;
+	margin-left: 0.2rem;
+	margin-top: 0.06rem;
+}
+.nrm .jies .dier p:last-child{
+	margin-left: 0.17rem;
+}
+.nrm .jies .disa{
+	width: 1.9rem;
+	height: 0.24rem;
+	background: #ffffff;
+	color: #faf9fc;
+}
+.nrm .jies .disa .disa1{
+	width: 0.5rem;
+	height: 0.24rem;
+	background: #cb4e5a;
+	float: left;
+	font-size: 0.01rem;
+	text-align: center;
+	line-height: 0.24rem;
+}
+.nrm .jies .disa p{
+	float: right;
+	font-size: 0.12rem;
+	margin-top: 0.06rem;
+	color: #050505;
+}
+.fsr{
+	width: 1.08rem;
+	height: 0.24rem;
+	background: #00a0e9;
+	float: right;
+	font-size: 0.12rem;
+	text-align: center;
+	margin-right: 0.24rem;
+	line-height: 0.24rem;
+	color: #fdfdfe;
+}
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: #ffffff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0 -0.15rem 0.15rem 0.02rem rgba(214, 214, 211, 0.5);
+}
+.ftr{
+	width: 1.28rem;
+	height: 0.68rem;
+	background: #ffffff;
+
+}
+.ftr a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.ftr i{
+	display: block;
+	float: left;
+	font-size: 0.46rem;
+	color: #000000;
+
+}
+.ftr p{
+	font-size: 0.14rem;
+	color: #000000;
+}
+.ftr:nth-child(1) p{
+	color: #00479d;
+}
+.ftr:nth-child(1) i.icon-shouye1{
+	color: #00479d;
+}
+/* 底部结束 */
